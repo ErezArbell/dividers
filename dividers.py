@@ -2,6 +2,8 @@
 
 # Find the number with the most dividers up to 1000
 
+numbers_up_to = 1000
+
 dividers = {}
 
 def num_of_dividers(n):
@@ -11,9 +13,9 @@ def num_of_dividers(n):
       count = count + 1
   return count
 
-for number in range(1, 1001, 1):
+for number in range(1, numbers_up_to + 1, 1):
   num_divs = num_of_dividers(number)
-  print(f"{number}: {num_divs}")
+  # print(f"{number}: {num_divs}")
   dividers[number] = num_divs
 
 max = 0
