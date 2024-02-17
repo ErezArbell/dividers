@@ -1,4 +1,4 @@
-#!python3
+#!/usr/bin/python3
 
 # Find the number with the most dividers up to 1000
 
